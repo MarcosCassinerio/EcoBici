@@ -1,0 +1,28 @@
+{
+    "id": "C2576BAB",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1620507144404.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "id": "f7c102b128a04b529dc55b941e8e1527",
+        "name": "direcciones",
+        "title": "direcciones",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 3198460853864,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1620507144404,
+    "read_only": false,
+    "read_only_alternatives": []
+}

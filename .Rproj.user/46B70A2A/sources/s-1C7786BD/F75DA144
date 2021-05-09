@@ -1,0 +1,28 @@
+{
+    "id": "F75DA144",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1620507329137.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "id": "6b8c96c6ddfd4fec8f23d4656187ff62",
+        "name": "direcciones",
+        "title": "direcciones",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 6573604472367445107,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1620507329137,
+    "read_only": false,
+    "read_only_alternatives": []
+}

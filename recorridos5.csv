@@ -1,0 +1,418 @@
+id_usuario,direccion_estacion_origen,direccion_estacion_destino,duracion_recorrido,distancia,dia
+104983,Acevedo 220 y padilla,Armenia 1525 y Gorriti,753,1615.25,Miércoles
+363325,Fitz Roy & Gorriti,Armenia 1525 y Gorriti,983,987.48,Domingo
+339543,2908 Salcedo & Dean Funes,México & Lima,1200,2850.16,Jueves
+530432,2133 Figueroa Alcorta,Av. Pres. Figueroa Alcorta 2120,2571,69.23,Lunes
+6618,"Ayacucho &Peron, Juan Domingo, Tte. General","1226 Ecuador & Mansilla, Lucio Norberto, General",570,1533.33,Domingo
+6618,"Ayacucho &Peron, Juan Domingo, Tte. General","1226 Ecuador & Mansilla, Lucio Norberto, General",497,1533.33,Sábado
+6618,"Ayacucho &Peron, Juan Domingo, Tte. General","1226 Ecuador & Mansilla, Lucio Norberto, General",566,1533.33,Lunes
+6618,"Ayacucho &Peron, Juan Domingo, Tte. General","1226 Ecuador & Mansilla, Lucio Norberto, General",524,1533.33,Sábado
+6618,"Ayacucho &Peron, Juan Domingo, Tte. General","1226 Ecuador & Mansilla, Lucio Norberto, General",420,1533.33,Martes
+239665,394 Rawson & Potosi,"1226 Ecuador & Mansilla, Lucio Norberto, General",1186,2389.15,Sábado
+6618,Ayacucho 595,"1226 Ecuador & Mansilla, Lucio Norberto, General",434,1083.5,Sábado
+6618,Ayacucho 595,"1226 Ecuador & Mansilla, Lucio Norberto, General",397,1083.5,Domingo
+6618,Ayacucho 595,"1226 Ecuador & Mansilla, Lucio Norberto, General",331,1083.5,Miércoles
+6618,Ayacucho 595,"1226 Ecuador & Mansilla, Lucio Norberto, General",388,1083.5,Martes
+6618,Marcelo T. de Alvear & Rodriguez Peña,"1226 Ecuador & Mansilla, Lucio Norberto, General",6213,1183.39,Martes
+530432,"Santa Fe Av. & Bullrich, Int. Av.",Moreno & Av Paseo Colon,3337,6509.39,Viernes
+234744,"Villaflor, Azucena & Dealessi, Pierina",Moreno & Av Paseo Colon,542,408.1,Domingo
+571607,Guemes 3330 & Coronel Diaz,Beruti & Ecuador,3159,852.02,Miércoles
+571607,"1226 Ecuador & Mansilla, Lucio Norberto, General",Beruti & Ecuador,4949,475.02,Sábado
+66950,2080 Austria,Beruti & Ecuador,2646,443.53,Miércoles
+571607,Arenales y Aguero,Beruti & Ecuador,4165,358.6,Viernes
+571607,3082 Cabello,Beruti & Ecuador,3392,1107.8,Sábado
+66950,Pres. José Evaristo Uriburu 987,Beruti & Ecuador,781,639.81,Miércoles
+37803,Pres. José Evaristo Uriburu 987,Beruti & Ecuador,410,639.81,Jueves
+339530,Beruti & Ecuador,Riobamba 1264 & Juncal,1195,794.47,Miércoles
+104983,Av. Guzman 1100 & Av. Corrientes,Av Guzman 129 & Leiva,266,669,Martes
+355796,Cerrito 990 y Av. Marcelo T. De Alvear,Godoy Cruz  3279 y Libertador,1117,4406.01,Martes
+315844,Armenia 2315 & Charcas,Godoy Cruz  3279 y Libertador,2119,1397.83,Lunes
+355796,Godoy Cruz  3279 y Libertador,Godoy Cruz  3279 y Libertador,1046,0,Martes
+218938,Godoy Cruz  3279 y Libertador,Godoy Cruz  3279 y Libertador,3222,0,Sábado
+355796,1413 Araoz & Gorriti CABA,Godoy Cruz  3279 y Libertador,644,2292.63,Sábado
+355796,"Salguero, Jeronimo & Mansilla, Lucio Norberto, General",Godoy Cruz  3279 y Libertador,586,1920.12,Lunes
+355796,3508 Carcova,Godoy Cruz  3279 y Libertador,756,2522.33,Jueves
+355796,3050 Ugarteche,Godoy Cruz  3279 y Libertador,343,1189.44,Jueves
+83670,Av. Pres. Figueroa Alcorta 2120,Godoy Cruz  3279 y Libertador,1989,3019.84,Sábado
+264425,o´higins 1327,Godoy Cruz  3279 y Libertador,1166,2428.04,Domingo
+515826,Av. Patricias Argentinas & Estivao,"441 Bulnes & Peron, Juan Domingo, Tte. General",910,1369.18,Miércoles
+299514,3912 Humahuaca,"441 Bulnes & Peron, Juan Domingo, Tte. General",489,489.99,Lunes
+234640,Guayaquil & Doblas,2875 Moreno,939,2397.07,Domingo
+234640,"4300 Yrigoyen, Hipolito Av.",2875 Moreno,945,1963.94,Jueves
+172209,3822 Guemes,3302 Guardia Vieja & Aguero,2826,1763.12,Jueves
+279904,"Aguero & Mansilla, Lucio Norberto, General","Lavalle & Acuña De Figueroa, Francisco",526,1230.1,Martes
+339543,1590 Lavalle,"Cevallos, Virrey& Yrigoyen, Hipolito Av.",458,684.95,Viernes
+339543,"3024 Calvo, Carlos","Cevallos, Virrey& Yrigoyen, Hipolito Av.",1089,2206.84,Viernes
+370355,Machaca Guemes 350,Reconquista 76 & Cordoba Av.,510,1084.9,Sábado
+370355,Moreno & Av Paseo Colon,Reconquista 76 & Cordoba Av.,797,1452.21,Sábado
+594006,J.Ramirez de Velasco 285,Av. Patricias Argentinas & Estivao,2513,861.94,Domingo
+339543,"3024 Calvo, Carlos",Av. Patricias Argentinas & Estivao,1148,2835.35,Lunes
+132289,Quintino Bocayuva y Don Bosco,"Juncal & Salguero, Jeronimo",1292,3353.08,Sábado
+239665,780 Malabia & Loyola,"Juncal & Salguero, Jeronimo",1510,2542.06,Jueves
+239665,780 Malabia & Loyola,"Juncal & Salguero, Jeronimo",1178,2542.06,Miércoles
+310414,Godoy Cruz  3279 y Libertador,3082 Cabello,4403,1763.8,Sábado
+6618,"1226 Ecuador & Mansilla, Lucio Norberto, General",141 Jose Maria Moreno,2880,3895.51,Miércoles
+549521,"4300 Yrigoyen, Hipolito Av.",141 Jose Maria Moreno,1602,914.45,Sábado
+239665,"Juncal & Salguero, Jeronimo",780 Malabia & Loyola,1192,2542.06,Sábado
+239665,"Juncal & Salguero, Jeronimo",780 Malabia & Loyola,1318,2542.06,Miércoles
+299514,Av. Rivadavia & Del Barco Centenera,780 Malabia & Loyola,1684,2799.08,Lunes
+41766,1078 Gurruchaga,780 Malabia & Loyola,1591,329.59,Domingo
+37803,519 Pasteur,Pres. José Evaristo Uriburu 987,340,692.77,Martes
+72263,Marcelo T. de Alvear & Rodriguez Peña,Pres. José Evaristo Uriburu 987,339,661.13,Viernes
+66950,2080 Austria,"2300 Diaz, Cnel. Av. & French",2043,478.68,Miércoles
+580651,"2300 Diaz, Cnel. Av. & French","2300 Diaz, Cnel. Av. & French",2919,0,Miércoles
+355796,"Av. Del Libertador, 3260","2300 Diaz, Cnel. Av. & French",428,1240.34,Jueves
+293521,Zapiola & Dorrego,"2300 Diaz, Cnel. Av. & French",2759,3180.68,Lunes
+37803,Marcelo T. de Alvear & Rodriguez Peña,"2300 Diaz, Cnel. Av. & French",786,1965.48,Jueves
+299514,"Santa Fe Av. & Bullrich, Int. Av.",3912 Humahuaca,2053,2812.59,Lunes
+299514,Juana De Ibarbourou & Av Patricias Argentinas,803 José Marmol,1765,2294.8,Miércoles
+216999,Godoy Cruz  3279 y Libertador,"Figueroa Alcorta, Pres. Av. & Dorrego Av.",4589,821.59,Domingo
+248566,2939 Cavia,Maure 1819,3089,2904.02,Lunes
+264425,o´higins 1327,Maure 1819,737,882.86,Jueves
+374441,o´higins 1327,Maure 1819,548,882.86,Sábado
+172209,"Uriburu Jose E., Pres. & Paraguay","Salguero, Jeronimo & Mansilla, Lucio Norberto, General",1161,1858.78,Miércoles
+172209,3912 Humahuaca,"Salguero, Jeronimo & Mansilla, Lucio Norberto, General",947,1445.59,Miércoles
+239665,780 Malabia & Loyola,"Salguero, Jeronimo & Mansilla, Lucio Norberto, General",832,1917.38,Viernes
+239665,780 Malabia & Loyola,"Salguero, Jeronimo & Mansilla, Lucio Norberto, General",800,1917.38,Lunes
+147100,Pres. José Evaristo Uriburu 987,"Salguero, Jeronimo & Mansilla, Lucio Norberto, General",882,1787.27,Miércoles
+172209,Sarandi 1010,"Salguero, Jeronimo & Mansilla, Lucio Norberto, General",1659,4016.6,Martes
+460847,2001 Donado,Amenabar y Mendoza,982,1884.04,Jueves
+310414,1350 Posadas,2939 Cavia,1104,2385.07,Miércoles
+546235,"2185 Ravignani, Emilio, Dr. & Guatemala","2185 Ravignani, Emilio, Dr. & Guatemala",393,0,Jueves
+101918,1321 Villarroel & Humboldt CABA,"2185 Ravignani, Emilio, Dr. & Guatemala",900,1866.48,Viernes
+234744,1785 Espinosa,"2185 Ravignani, Emilio, Dr. & Guatemala",1798,3520.87,Jueves
+579553,"Argerich & Flores, Venancio, Gral.","2185 Ravignani, Emilio, Dr. & Guatemala",4053,6789.35,Viernes
+234640,2875 Moreno,Quintino Bocayuva y Don Bosco,569,1553.59,Lunes
+363325,519 Pasteur,3508 Carcova,3251,1618.19,Martes
+90978,3508 Carcova,3508 Carcova,1869,0,Viernes
+239665,"Juncal & Salguero, Jeronimo",Maza y don Bosco,1680,3067.11,Lunes
+10781,Av. Patricias Argentinas & Estivao,Av. Rivadavia & Del Barco Centenera,497,1602.06,Viernes
+10781,Av. Patricias Argentinas & Estivao,Av. Rivadavia & Del Barco Centenera,1542,1602.06,Sábado
+10781,Juana De Ibarbourou & Av Patricias Argentinas,Av. Rivadavia & Del Barco Centenera,671,1929.44,Viernes
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,1421,1417.15,Martes
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,497,1417.15,Domingo
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,452,1417.15,Jueves
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,429,1417.15,Miércoles
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,454,1417.15,Martes
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,873,1417.15,Domingo
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,984,1417.15,Miércoles
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,478,1417.15,Martes
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,441,1417.15,Domingo
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,467,1417.15,Sábado
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,432,1417.15,Viernes
+549521,"4300 Yrigoyen, Hipolito Av.",Av. Rivadavia & Del Barco Centenera,444,1417.15,Jueves
+289069,Peru  1016,Peru  1016,569,0,Martes
+83670,902 Esmeralda,Peru  1016,1479,2575.13,Sábado
+132289,3508 Carcova,Zapiola & Dorrego,1614,3035.29,Sábado
+264425,1399 Moldes,Zapiola & Dorrego,714,1608.89,Domingo
+264425,1399 Moldes,Zapiola & Dorrego,759,1608.89,Sábado
+508897,2001 Donado,Zapiola & Dorrego,1250,3093.5,Miércoles
+278659,Iguazu & Uspallata,Fitz Roy & Gorriti,2502,6762.11,Sábado
+37803,Marcelo T. de Alvear & Rodriguez Peña,Peña & Azcuenaga,632,878.5,Martes
+220360,Avenida Rivadavia y Fray Cayetano,Juana De Ibarbourou & Av Patricias Argentinas,3297,3804.65,Viernes
+41766,Juana De Ibarbourou & Av Patricias Argentinas,Juana De Ibarbourou & Av Patricias Argentinas,1440,0,Lunes
+414238,Lima 750,3568 Estados Unidos & Boedo Av.,833,3199.32,Jueves
+299514,"2300 Diaz, Cnel. Av. & French",3568 Estados Unidos & Boedo Av.,1793,4168.06,Jueves
+549521,Guayaquil & Doblas,3568 Estados Unidos & Boedo Av.,578,1443.45,Lunes
+414238,3302 Guardia Vieja & Aguero,3568 Estados Unidos & Boedo Av.,1317,2204.82,Sábado
+299514,"Lavalle & Acuña De Figueroa, Francisco",3568 Estados Unidos & Boedo Av.,1186,2742.63,Miércoles
+151337,1590 Lavalle,Libertad & lavalle,1049,555.39,Miércoles
+373567,3051 San Martin De Tours,Libertad & lavalle,1380,3372.68,Jueves
+66950,2080 Austria,2080 Austria,618,0,Viernes
+66950,2080 Austria,2080 Austria,4454,0,Miércoles
+66950,"2300 Diaz, Cnel. Av. & French",2080 Austria,618,478.68,Miércoles
+571607,"2300 Diaz, Cnel. Av. & French",2080 Austria,3001,478.68,Lunes
+66950,"2300 Diaz, Cnel. Av. & French",2080 Austria,196,478.68,Miércoles
+66950,"Lavalle & Acuña De Figueroa, Francisco",2080 Austria,812,1985.96,Miércoles
+72263,"Ayacucho &Peron, Juan Domingo, Tte. General",Marcelo T. de Alvear & Rodriguez Peña,725,1172.96,Lunes
+72263,Pres. José Evaristo Uriburu 987,Marcelo T. de Alvear & Rodriguez Peña,280,661.13,Miércoles
+72263,Pres. José Evaristo Uriburu 987,Marcelo T. de Alvear & Rodriguez Peña,258,661.13,Viernes
+37803,Marcelo T. de Alvear & Rodriguez Peña,Marcelo T. de Alvear & Rodriguez Peña,1591,0,Miércoles
+101918,1321 Villarroel & Humboldt CABA,519 Pasteur,1851,4315.26,Miércoles
+370355,"Villaflor, Azucena & Paine, Aime",Armenia 2315 & Charcas,5514,6215.58,Lunes
+6618,"Ayacucho &Peron, Juan Domingo, Tte. General",684 Boulogne Sur Mer & Tucuman,365,1184.39,Martes
+6618,"Ayacucho &Peron, Juan Domingo, Tte. General",684 Boulogne Sur Mer & Tucuman,367,1184.39,Sábado
+508897,"1483 Quinteros, Lidoro J. Av.",Costa Rica & Armenia,1453,4611.54,Viernes
+339543,"3024 Calvo, Carlos",708 Pasco & Chile,2361,1072.18,Domingo
+332895,Fitz Roy & Gorriti,925 Yatay& Humahuaca,1647,1978.99,Sábado
+101918,"Juncal & Salguero, Jeronimo",925 Yatay& Humahuaca,1087,2398.43,Viernes
+207716,Godoy Cruz  3279 y Libertador,o´higins 1327,1360,2428.04,Sábado
+293093,3082 Cabello,o´higins 1327,1608,4091.42,Domingo
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",396,1417.15,Viernes
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",423,1417.15,Jueves
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",428,1417.15,Jueves
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",430,1417.15,Miércoles
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",432,1417.15,Domingo
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",409,1417.15,Jueves
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",451,1417.15,Domingo
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",417,1417.15,Viernes
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",494,1417.15,Jueves
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",512,1417.15,Domingo
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",465,1417.15,Viernes
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",491,1417.15,Jueves
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",427,1417.15,Martes
+549521,Av. Rivadavia & Del Barco Centenera,"4300 Yrigoyen, Hipolito Av.",2,1417.15,Jueves
+549521,141 Jose Maria Moreno,"4300 Yrigoyen, Hipolito Av.",279,914.45,Viernes
+549521,141 Jose Maria Moreno,"4300 Yrigoyen, Hipolito Av.",329,914.45,Viernes
+549521,141 Jose Maria Moreno,"4300 Yrigoyen, Hipolito Av.",275,914.45,Martes
+13804,80 Larrea,CARLOS PELEGRINI 215,627,1928.19,Domingo
+460847,Cordoba 6599,2001 Donado,816,2299.77,Viernes
+508897,GARCIA DEL RIO & PINTO,2001 Donado,1113,2622.55,Sábado
+508897,GARCIA DEL RIO & PINTO,2001 Donado,791,2622.55,Miércoles
+460847,Miller & Monroe,2001 Donado,632,675.48,Viernes
+460847,Av. Guzman 1100 & Av. Corrientes,2001 Donado,1473,2373.03,Jueves
+508897,"Delgado & Loreto, Virrey",2001 Donado,565,1600.36,Domingo
+508897,"Delgado & Loreto, Virrey",2001 Donado,530,1600.36,Domingo
+460847,2519 Superi,2001 Donado,516,1135.96,Domingo
+460847,2519 Superi,2001 Donado,768,1135.96,Jueves
+460847,2519 Superi,2001 Donado,619,1135.96,Miércoles
+460847,2519 Superi,2001 Donado,598,1135.96,Martes
+460847,2519 Superi,2001 Donado,538,1135.96,Lunes
+460847,2519 Superi,2001 Donado,558,1135.96,Miércoles
+460847,2519 Superi,2001 Donado,488,1135.96,Viernes
+508897,"1483 Quinteros, Lidoro J. Av.",2001 Donado,1340,3189.91,Martes
+508897,3050 Ugarteche,2001 Donado,2573,5797.21,Jueves
+508897,Zapiola & Dorrego,2001 Donado,1134,3093.5,Miércoles
+172047,Amenabar y Mendoza,2001 Donado,2269,1884.04,Viernes
+339543,803 José Marmol,"3024 Calvo, Carlos",450,1564.97,Viernes
+339543,803 José Marmol,"3024 Calvo, Carlos",1161,1564.97,Sábado
+339543,1019 Riglos,"3024 Calvo, Carlos",2170,2682.88,Domingo
+339543,México & Lima,"3024 Calvo, Carlos",802,2540.62,Jueves
+594006,Av. Patricias Argentinas & Estivao,J.Ramirez de Velasco 285,2317,861.94,Sábado
+40998,3822 Guemes,J.Ramirez de Velasco 285,1044,2267.63,Viernes
+463200,2516 Pereyra Lucena,Figueroa Alcorta & Sarmiento,4240,1591.43,Jueves
+104983,2939 Cavia,Figueroa Alcorta & Sarmiento,1811,697.51,Martes
+293093,Av. Pres. Figueroa Alcorta 2120,Figueroa Alcorta & Sarmiento,1011,2292.28,Miércoles
+164253,"Salguero, Jeronimo & Mansilla, Lucio Norberto, General",1590 Lavalle,1709,2895.05,Sábado
+66950,2080 Austria,1590 Lavalle,3207,2128.6,Martes
+299514,Bartolome Mitre & Av. Puyrredon,1590 Lavalle,892,1713,Martes
+463200,2516 Pereyra Lucena,2516 Pereyra Lucena,7750,0,Sábado
+463200,3051 San Martin De Tours,2516 Pereyra Lucena,4546,757.61,Lunes
+508978,3051 San Martin De Tours,2516 Pereyra Lucena,4865,757.61,Lunes
+172209,"1520 Billinghurst & Mansilla, Lucio Norberto, General","Uriburu Jose E., Pres. & Paraguay",758,1351.14,Miércoles
+18702,519 Pasteur,"Uriburu Jose E., Pres. & Paraguay",316,547.13,Martes
+299514,"441 Bulnes & Peron, Juan Domingo, Tte. General","Uriburu Jose E., Pres. & Paraguay",1366,2014.39,Lunes
+37803,Marcelo T. de Alvear & Rodriguez Peña,"Uriburu Jose E., Pres. & Paraguay",368,677.02,Miércoles
+222236,Av. Gaona 2200,Av. Gaona 2200,3269,0,Domingo
+234744,1785 Espinosa,Av. Gaona 2200,1555,1099.44,Martes
+234744,"1540 Garcia, Juan Agustin",Av. Gaona 2200,1057,1467.17,Lunes
+234744,"1540 Garcia, Juan Agustin",Av. Gaona 2200,1334,1467.17,Viernes
+234744,"1540 Garcia, Juan Agustin",Av. Gaona 2200,1472,1467.17,Martes
+525584,Culpina 121,Av. Gaona 2200,1293,2120.6,Domingo
+460847,Triunvirato Av. & Roosevelt Franklin D. Av.,Tronador y Garcia del Rio,2522,2144.56,Sábado
+374441,Olleros Av. & Del Libertador Av.,"1798 Matienzo, Benjamin, Teniente",407,593.24,Miércoles
+374441,Av. Sarmiento 2601,"1798 Matienzo, Benjamin, Teniente",998,1810.26,Viernes
+374441,Av. Sarmiento 2601,"1798 Matienzo, Benjamin, Teniente",743,1810.26,Jueves
+374441,Vuelta de Obligado 2004,"1798 Matienzo, Benjamin, Teniente",901,2031.84,Lunes
+374441,Amenabar y Mendoza,"1798 Matienzo, Benjamin, Teniente",1126,2368.42,Lunes
+41766,Bartolome Mitre & Av. Puyrredon,1078 Gurruchaga,1756,3207.3,Jueves
+536427,"Saenz Peña 938, Roque, Pres. Diagonal Norte Av. & Suipacha","Sucre, Antonio Jose De, Mcal. Y Vertiz Virrey Av.",3728,8003.01,Domingo
+172047,"Santa Fe Av. & Bullrich, Int. Av.","Sucre, Antonio Jose De, Mcal. Y Vertiz Virrey Av.",911,2808.74,Lunes
+508897,2001 Donado,"Sucre, Antonio Jose De, Mcal. Y Vertiz Virrey Av.",1060,2855.72,Martes
+508897,2001 Donado,"Sucre, Antonio Jose De, Mcal. Y Vertiz Virrey Av.",863,2855.72,Viernes
+515826,Av. Gaona 2200,2502 Galicia,1317,1185.16,Martes
+373567,561 Uruguay & Av. Tucuman,561 Uruguay & Av. Tucuman,2863,0,Martes
+536427,"3024 Calvo, Carlos","Suipacha & Viamonte, 709",1868,3545.06,Viernes
+580033,"1798 Matienzo, Benjamin, Teniente",3822 Guemes,1223,2688.63,Martes
+40998,80 Larrea,3822 Guemes,1404,2726.67,Martes
+83670,Olleros Av. & Del Libertador Av.,"Santa Fe Av. & Bullrich, Int. Av.",869,1784.49,Sábado
+172047,2001 Donado,"Santa Fe Av. & Bullrich, Int. Av.",1682,4443.79,Lunes
+579553,Santa Fe Av. & Dorrego,Santa Fe Av. & Dorrego,2126,0,Miércoles
+382807,"Sucre, Antonio Jose De, Mcal. Y Vertiz Virrey Av.",Santa Fe Av. & Dorrego,1562,2128.01,Martes
+239665,2516 Pereyra Lucena,Av. Sarmiento 2601,1102,1855.77,Lunes
+362127,"1701 Fernandez Moreno, Baldomero","Delgado & Loreto, Virrey",4559,6303.58,Sábado
+508897,2001 Donado,"Delgado & Loreto, Virrey",890,1600.36,Miércoles
+508897,2001 Donado,"Delgado & Loreto, Virrey",854,1600.36,Miércoles
+374441,2786 Montañeses,Olleros Av. & Del Libertador Av.,783,2144.42,Martes
+374441,Amenabar y Mendoza,Olleros Av. & Del Libertador Av.,984,2115.4,Viernes
+131470,"Ramos Mejia, Av Dr Jose Maria Vargas& Av. Del Libertador","Ramos Mejia, Av Dr Jose Maria Vargas& Av. Del Libertador",1260,0,Lunes
+172209,3822 Guemes,Mexico 1652,1746,3947.36,Martes
+310414,2939 Cavia,1350 Posadas,1225,2385.07,Jueves
+207992,Dr Tomas Manuel De  Anchorena &  Jose A. Cabrera,1350 Posadas,1113,2254.09,Domingo
+355796,3050 Ugarteche,1350 Posadas,622,2614.53,Miércoles
+355796,Guemes 3330 & Coronel Diaz,3050 Ugarteche,2,1050.66,Sábado
+355796,Godoy Cruz  3279 y Libertador,3050 Ugarteche,408,1189.44,Jueves
+355796,238 Pichincha,3050 Ugarteche,1106,3730.21,Jueves
+293093,Riobamba 1264 & Juncal,3050 Ugarteche,770,2192.95,Domingo
+99569,Triunvirato Av. & Roosevelt Franklin D. Av.,Guatemala 4773,3870,5846.73,Martes
+99569,2001 Donado,Guatemala 4773,2093,4753.16,Viernes
+234744,Andres Lamas&Remedios Escalada de San Martin,"1540 Garcia, Juan Agustin",642,878.34,Martes
+142981,Av. Patricias Argentinas & Estivao,"1540 Garcia, Juan Agustin",1260,3006.09,Miércoles
+234744,1785 Espinosa,"1540 Garcia, Juan Agustin",2045,785.32,Jueves
+234744,2502 Galicia,"1540 Garcia, Juan Agustin",896,1626.69,Viernes
+234744,2502 Galicia,"1540 Garcia, Juan Agustin",1019,1626.69,Martes
+234744,2502 Galicia,"1540 Garcia, Juan Agustin",1768,1626.69,Viernes
+234744,Zapiola & Dorrego,"1540 Garcia, Juan Agustin",1271,3292.92,Jueves
+234744,"1540 Garcia, Juan Agustin","1540 Garcia, Juan Agustin",1356,0,Miércoles
+234744,"Virasoro, Valentin & Figueroa, D Apolinario, Coronel","1540 Garcia, Juan Agustin",1770,1834.82,Martes
+504307,Calcena & Avellaneda Av.,Calcena & Avellaneda Av.,2001,0,Lunes
+183029,"Cevallos, Virrey& Yrigoyen, Hipolito Av.",Calcena & Avellaneda Av.,2478,6405.03,Jueves
+414238,"Villaflor, Azucena & Paine, Aime",Bernardo Irigoyen 320,1316,1750.13,Lunes
+124991,Machaca Guemes 350,Av. España 2200,1289,1696.96,Domingo
+21691,"383 Blanes, Juan Manuel",Av. España 2200,695,1449.55,Martes
+414238,Bernardo Irigoyen 320,Av. España 2200,1084,2379.32,Sábado
+370355,Reconquista 76 & Cordoba Av.,Av. España 2200,796,2755.51,Sábado
+299514,Av. España 2200,Av. España 2200,1937,0,Lunes
+431415,Avenida Rivadavia y Fray Cayetano,Avenida Rivadavia y Fray Cayetano,528,0,Sábado
+370868,"1701 Fernandez Moreno, Baldomero",Avenida Rivadavia y Fray Cayetano,18573,1363.63,Miércoles
+512463,Peru  1016,"Calle Perú, 718",3167,423.37,Domingo
+512463,Estados Unidos 21,"Calle Perú, 718",273,714.71,Domingo
+239665,"Salguero, Jeronimo & Mansilla, Lucio Norberto, General",394 Rawson & Potosi,2367,2261,Miércoles
+239665,3822 Guemes,394 Rawson & Potosi,1216,2488.62,Sábado
+91197,Avelino Diaz&Doblas,608 Doblas & Valle,9158,1217.75,Sábado
+339543,"Urquiza, Gral. & Rondeau",608 Doblas & Valle,1100,2475.67,Viernes
+339543,2908 Salcedo & Dean Funes,608 Doblas & Valle,864,2429.94,Domingo
+101918,"2185 Ravignani, Emilio, Dr. & Guatemala",1321 Villarroel & Humboldt CABA,792,1866.48,Viernes
+101918,"Juncal & Salguero, Jeronimo",1321 Villarroel & Humboldt CABA,1666,3226.66,Martes
+101918,"Juncal & Salguero, Jeronimo",1321 Villarroel & Humboldt CABA,1407,3226.66,Lunes
+101918,"2300 Diaz, Cnel. Av. & French",1321 Villarroel & Humboldt CABA,1628,3516.05,Viernes
+101918,"2300 Diaz, Cnel. Av. & French",1321 Villarroel & Humboldt CABA,1683,3516.05,Martes
+172047,Arcos & Roosevelt Franklin D.,1321 Villarroel & Humboldt CABA,1847,4369.74,Martes
+536427,902 Esmeralda,1019 Saavedra,2363,3395.68,Viernes
+23321,Adolfo Alsina& Bernardo De Irigoyen,"169 Peru & Roca, Julio A., Presidente Diagonal Sur Av.",249,565.13,Miércoles
+23321,Adolfo Alsina& Bernardo De Irigoyen,"169 Peru & Roca, Julio A., Presidente Diagonal Sur Av.",310,565.13,Lunes
+23321,Adolfo Alsina& Bernardo De Irigoyen,"169 Peru & Roca, Julio A., Presidente Diagonal Sur Av.",296,565.13,Lunes
+23321,Adolfo Alsina& Bernardo De Irigoyen,"169 Peru & Roca, Julio A., Presidente Diagonal Sur Av.",302,565.13,Lunes
+23321,Adolfo Alsina& Bernardo De Irigoyen,"169 Peru & Roca, Julio A., Presidente Diagonal Sur Av.",274,565.13,Miércoles
+23321,"169 Peru & Roca, Julio A., Presidente Diagonal Sur Av.","169 Peru & Roca, Julio A., Presidente Diagonal Sur Av.",964,0,Jueves
+23321,Esmeralda y Av.Rivadvia,"169 Peru & Roca, Julio A., Presidente Diagonal Sur Av.",464,347.82,Jueves
+207716,Beruti & Ecuador,"Aguero & Mansilla, Lucio Norberto, General",646,671.3,Viernes
+460847,Miller & Monroe,Triunvirato Av. & Roosevelt Franklin D. Av.,175,629.04,Sábado
+460847,2519 Superi,Triunvirato Av. & Roosevelt Franklin D. Av.,480,1913.95,Domingo
+460847,2519 Superi,Triunvirato Av. & Roosevelt Franklin D. Av.,567,1913.95,Domingo
+198839,Triunvirato Av. & Roosevelt Franklin D. Av.,Triunvirato Av. & Roosevelt Franklin D. Av.,7926,0,Miércoles
+201997,Triunvirato Av. & Roosevelt Franklin D. Av.,Triunvirato Av. & Roosevelt Franklin D. Av.,11368,0,Miércoles
+490910,Triunvirato Av. & Roosevelt Franklin D. Av.,Triunvirato Av. & Roosevelt Franklin D. Av.,3681,0,Miércoles
+579553,"Argerich & Flores, Venancio, Gral.",Triunvirato Av. & Roosevelt Franklin D. Av.,4340,6385.02,Sábado
+245741,Beruti & Ecuador,Cordoba Av. & Montevideo,645,1379.07,Miércoles
+278659,300 Almafuerte Av. & Los Patos,300 Almafuerte Av. & Los Patos,10637,0,Jueves
+278659,Fitz Roy & Gorriti,300 Almafuerte Av. & Los Patos,3183,6635.76,Sábado
+571607,Arenales y Aguero,Fitz Roy  1092 & Loyola,2260,3329.65,Viernes
+101918,"Juncal & Salguero, Jeronimo",Fitz Roy  1092 & Loyola,1559,2907.23,Miércoles
+509785,Fitz Roy  1092 & Loyola,Fitz Roy  1092 & Loyola,1071,0,Jueves
+279802,80 Larrea,80 Larrea,1712,0,Miércoles
+279802,80 Larrea,80 Larrea,2238,0,Sábado
+198839,Miller & Monroe,La Pampa 2512 & Ciudad de la Paz,2476,2446.75,Domingo
+49068,Avenida Juan de Garay 1050,Avelino Diaz&Doblas,2080,4390.73,Jueves
+339543,2908 Salcedo & Dean Funes,Avelino Diaz&Doblas,1045,2073.22,Domingo
+191555,Beruti & Ecuador,3084 Agrelo,1417,2886.7,Martes
+401247,"Madero, Eduardo Av. & Peron, Juan Domingo, Tte. General","Madero, Eduardo Av. & Peron, Juan Domingo, Tte. General",1623,0,Domingo
+508897,Miller & Monroe,Bruno Giordano&Neuquen,2235,6272.07,Domingo
+299514,Yerbal 1290,1019 Riglos,1644,1585.78,Miércoles
+339543,2908 Salcedo & Dean Funes,1019 Riglos,834,2723.02,Domingo
+339543,2908 Salcedo & Dean Funes,1019 Riglos,1106,2723.02,Lunes
+339543,2908 Salcedo & Dean Funes,1019 Riglos,838,2723.02,Domingo
+339543,2908 Salcedo & Dean Funes,1019 Riglos,1026,2723.02,Domingo
+339543,2908 Salcedo & Dean Funes,1019 Riglos,1060,2723.02,Sábado
+69880,Fitz Roy & Gorriti,"1483 Quinteros, Lidoro J. Av.",1611,3812.75,Sábado
+69880,"Santa Fe Av. & Bullrich, Int. Av.","1483 Quinteros, Lidoro J. Av.",1032,3564.16,Domingo
+69880,Arenales y Aguero,"1483 Quinteros, Lidoro J. Av.",1834,5914.71,Sábado
+3832,"1483 Quinteros, Lidoro J. Av.","1483 Quinteros, Lidoro J. Av.",1221,0,Jueves
+69880,3051 San Martin De Tours,"1483 Quinteros, Lidoro J. Av.",1675,5157.6,Sábado
+164979,Miller & Monroe,Miller & Monroe,3847,0,Domingo
+508897,"1483 Quinteros, Lidoro J. Av.",Miller & Monroe,889,3444.63,Jueves
+198839,La Pampa 2512 & Ciudad de la Paz,Miller & Monroe,1417,2446.75,Domingo
+575779,Pedro Echague 1878 & Combate De Los Pozos,Brasil & Pichincha,3346,413.99,Miércoles
+133599,Brasil & Pichincha,Brasil & Pichincha,1963,0,Lunes
+374441,"1798 Matienzo, Benjamin, Teniente",Vuelta de Obligado 2004,940,2031.84,Lunes
+374441,"1798 Matienzo, Benjamin, Teniente",Vuelta de Obligado 2004,1137,2031.84,Lunes
+374441,Maure 1819,Vuelta de Obligado 2004,989,1794.63,Miércoles
+13804,"Saenz Peña 938, Roque, Pres. Diagonal Norte Av. & Suipacha",527 25 De Mayo,407,883.82,Domingo
+172047,"Ramos Mejia, Av Dr Jose Maria Vargas& Av. Del Libertador",527 25 De Mayo,472,1108.97,Lunes
+515826,"137 Aranguren, Juan F., Dr. & Portugal","137 Aranguren, Juan F., Dr. & Portugal",4052,0,Domingo
+234640,2875 Moreno,"137 Aranguren, Juan F., Dr. & Portugal",1181,2439.54,Viernes
+234640,2875 Moreno,Cordoba 6599,1979,5459.77,Lunes
+460847,2519 Superi,Cordoba 6599,937,2565.93,Lunes
+460847,2519 Superi,Cordoba 6599,1201,2565.93,Jueves
+460847,2519 Superi,Cordoba 6599,1846,2565.93,Domingo
+460847,2001 Donado,Cordoba 6599,722,2299.77,Martes
+460847,2001 Donado,Cordoba 6599,861,2299.77,Viernes
+363325,GARCIA DEL RIO & PINTO,Miguel Sanchez y Av Libertadores,4168,1677.08,Lunes
+18702,Miguel Sanchez y Av Libertadores,Miguel Sanchez y Av Libertadores,431,0,Domingo
+293521,3051 San Martin De Tours,Miguel Sanchez y Av Libertadores,2238,6312.14,Jueves
+460847,2001 Donado,Av. Guzman 1100 & Av. Corrientes,6683,2373.03,Domingo
+460847,2001 Donado,Av. Guzman 1100 & Av. Corrientes,1273,2373.03,Jueves
+508897,Miller & Monroe,Arcos & Roosevelt Franklin D.,882,2720.62,Jueves
+300143,"Figueroa Alcorta, Pres. Av. & Dorrego Av.",Arcos & Roosevelt Franklin D.,2947,3646.76,Lunes
+172047,Triunvirato Av. & Roosevelt Franklin D. Av.,Arcos & Roosevelt Franklin D.,2561,3344.19,Jueves
+172047,2001 Donado,Arcos & Roosevelt Franklin D.,1033,2528.24,Viernes
+334879,"Vera Peñaloza, Rosario 599 & Lanteri Julieta","Vera Peñaloza, Rosario 599 & Lanteri Julieta",3390,0,Miércoles
+370355,AZOPARDO 700,"Vera Peñaloza, Rosario 599 & Lanteri Julieta",1856,774.83,Jueves
+21691,"383 Blanes, Juan Manuel","383 Blanes, Juan Manuel",254,0,Martes
+370868,"1701 Fernandez Moreno, Baldomero","1701 Fernandez Moreno, Baldomero",2063,0,Lunes
+460847,Tronador y Garcia del Rio,GARCIA DEL RIO & PINTO,731,958.27,Jueves
+23321,GARCIA DEL RIO & PINTO,GARCIA DEL RIO & PINTO,703,0,Domingo
+293521,GARCIA DEL RIO & PINTO,GARCIA DEL RIO & PINTO,549,0,Domingo
+363325,Armenia 1525 y Gorriti,GARCIA DEL RIO & PINTO,3580,6272.94,Domingo
+509785,2519 Superi,GARCIA DEL RIO & PINTO,644,1686.55,Martes
+508897,2001 Donado,GARCIA DEL RIO & PINTO,1159,2622.55,Domingo
+508897,2001 Donado,GARCIA DEL RIO & PINTO,904,2622.55,Viernes
+508897,2001 Donado,GARCIA DEL RIO & PINTO,853,2622.55,Miércoles
+508897,2001 Donado,GARCIA DEL RIO & PINTO,1536,2622.55,Domingo
+363325,2001 Donado,"2700 Pedraza, Manuela",965,2311.1,Sábado
+460847,Cordoba 6599,2519 Superi,1012,2565.93,Martes
+460847,GARCIA DEL RIO & PINTO,2519 Superi,761,1686.55,Jueves
+460847,Triunvirato Av. & Roosevelt Franklin D. Av.,2519 Superi,834,1913.95,Viernes
+460847,Triunvirato Av. & Roosevelt Franklin D. Av.,2519 Superi,789,1913.95,Domingo
+460847,2001 Donado,2519 Superi,582,1135.96,Lunes
+460847,Amenabar y Mendoza,2519 Superi,2809,996.42,Jueves
+520934,"Villaflor, Azucena & Paine, Aime","Villaflor, Azucena & Paine, Aime",1550,0,Sábado
+23321,Machaca Guemes 350,"Villaflor, Azucena & Dealessi, Pierina",1030,716.07,Domingo
+23321,Machaca Guemes 350,"Villaflor, Azucena & Dealessi, Pierina",890,716.07,Domingo
+362985,Av. Sarmiento 2601,2786 Montañeses,1351,4458.42,Sábado
+339543,803 José Marmol,2908 Salcedo & Dean Funes,684,2009.45,Domingo
+339543,608 Doblas & Valle,2908 Salcedo & Dean Funes,776,2429.94,Jueves
+339543,608 Doblas & Valle,2908 Salcedo & Dean Funes,1155,2429.94,Sábado
+339543,608 Doblas & Valle,2908 Salcedo & Dean Funes,1019,2429.94,Domingo
+339543,1019 Riglos,2908 Salcedo & Dean Funes,1881,2723.02,Domingo
+339543,1019 Riglos,2908 Salcedo & Dean Funes,814,2723.02,Lunes
+339543,1019 Riglos,2908 Salcedo & Dean Funes,1800,2723.02,Domingo
+339543,1019 Riglos,2908 Salcedo & Dean Funes,1075,2723.02,Domingo
+339543,1019 Riglos,2908 Salcedo & Dean Funes,2121,2723.02,Jueves
+274860,Bruno Giordano&Neuquen,2908 Salcedo & Dean Funes,1807,3660.58,Sábado
+339543,3568 Estados Unidos & Boedo Av.,2908 Salcedo & Dean Funes,643,1430.96,Domingo
+575779,Iguazu & Uspallata,2908 Salcedo & Dean Funes,2032,947.83,Viernes
+575779,Iguazu & Uspallata,2908 Salcedo & Dean Funes,1220,947.83,Lunes
+575779,Iguazu & Uspallata,2908 Salcedo & Dean Funes,1686,947.83,Viernes
+575779,Iguazu & Uspallata,2908 Salcedo & Dean Funes,507,947.83,Miércoles
+575779,Iguazu & Uspallata,2908 Salcedo & Dean Funes,442,947.83,Martes
+575779,"Urquiza, Gral. & Rondeau",2908 Salcedo & Dean Funes,1662,574.94,Lunes
+575779,2908 Salcedo & Dean Funes,2908 Salcedo & Dean Funes,2563,0,Jueves
+339543,2908 Salcedo & Dean Funes,2908 Salcedo & Dean Funes,1563,0,Martes
+220420,"Manso Juana & De La Barra, Emma","Manso Juana & De La Barra, Emma",1238,0,Domingo
+515826,Juana De Ibarbourou & Av Patricias Argentinas,Andres Lamas&Remedios Escalada de San Martin,2284,3076.56,Viernes
+234744,"1540 Garcia, Juan Agustin",Andres Lamas&Remedios Escalada de San Martin,1532,878.34,Martes
+234744,"1540 Garcia, Juan Agustin",Andres Lamas&Remedios Escalada de San Martin,768,878.34,Viernes
+439943,Amenabar y Mendoza,Andres Lamas&Remedios Escalada de San Martin,1673,5327.63,Martes
+370355,Mexico 1652,AZOPARDO 700,901,2059.64,Miércoles
+370355,Machaca Guemes 350,AZOPARDO 700,666,1154.47,Martes
+370355,2000 Vicente Lopez,AZOPARDO 700,1642,3770.07,Domingo
+370355,Estados Unidos 21,AZOPARDO 700,991,288.59,Domingo
+370355,Estados Unidos 21,AZOPARDO 700,2139,288.59,Lunes
+370355,"Villaflor, Azucena & Dealessi, Pierina",AZOPARDO 700,442,526.2,Sábado
+370355,Idependencia y Bernardo de Irigoyen,AZOPARDO 700,536,1219.36,Jueves
+370355,Reconquista 76 & Cordoba Av.,AZOPARDO 700,987,1959.83,Sábado
+370355,AZOPARDO 700,AZOPARDO 700,1999,0,Lunes
+370355,AZOPARDO 700,AZOPARDO 700,2095,0,Viernes
+370355,AZOPARDO 700,AZOPARDO 700,1884,0,Domingo
+370355,Adolfo Alsina& Bernardo De Irigoyen,AZOPARDO 700,583,1348.84,Miércoles
+575779,Iguazu & Uspallata,Iguazu & Uspallata,1988,0,Martes
+575779,2908 Salcedo & Dean Funes,Iguazu & Uspallata,1208,947.83,Lunes
+264425,Godoy Cruz  3279 y Libertador,1399 Moldes,2754,3046.73,Domingo
+264425,Maure 1819,1399 Moldes,1873,1554.84,Jueves
+264425,Zapiola & Dorrego,1399 Moldes,1038,1608.89,Martes
+264425,Zapiola & Dorrego,1399 Moldes,1889,1608.89,Sábado
+264425,o´higins 1327,1399 Moldes,2487,689.12,Domingo
+395104,Amenabar y Mendoza,1399 Moldes,5442,910.74,Lunes
+299514,1590 Lavalle,3817 Traful,2527,5923.79,Lunes
+299514,300 Almafuerte Av. & Los Patos,3817 Traful,651,1246.87,Martes
+299514,608 Doblas & Valle,3817 Traful,1639,3331.85,Miércoles
+299514,3568 Estados Unidos & Boedo Av.,3817 Traful,1148,3293.68,Sábado
+299514,3568 Estados Unidos & Boedo Av.,3817 Traful,1496,3293.68,Jueves
+299514,Av. Rivadavia & Del Barco Centenera,3817 Traful,1782,4196.31,Lunes
+13804,Reconquista & Corrientes Av.,Idependencia y Bernardo de Irigoyen,3734,1743.57,Lunes
+35806,"Avenida Martin Garcia, 295",Idependencia y Bernardo de Irigoyen,2627,1563.64,Viernes
+508897,Miller & Monroe,2519 Conesa,686,1771.76,Lunes
+225059,1619 Brandsen,1619 Brandsen,2580,0,Lunes
+83670,902 Esmeralda,1619 Brandsen,1861,4522.92,Domingo
+525584,Culpina 121,Culpina 121,1378,0,Domingo

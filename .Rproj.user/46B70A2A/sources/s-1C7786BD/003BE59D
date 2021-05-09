@@ -1,0 +1,28 @@
+{
+    "id": "003BE59D",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1620510808258.0,
+    "source_on_save": false,
+    "relative_order": 8,
+    "properties": {
+        "id": "d76f053f6674460a83dd802412ec0abe",
+        "name": "vn2",
+        "title": "vn2",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 3198353585744,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1620510808258,
+    "read_only": false,
+    "read_only_alternatives": []
+}
