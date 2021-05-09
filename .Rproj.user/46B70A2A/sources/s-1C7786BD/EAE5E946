@@ -3,7 +3,7 @@
     "path": "~/PYE/notebook.rmd",
     "project_path": "notebook.rmd",
     "type": "r_markdown",
-    "hash": "2071126377",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1620505264913.0,
@@ -13,15 +13,15 @@
         "chunk_output_type": "inline",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "16,0",
-        "scrollLine": "13"
+        "cursorPosition": "6,19",
+        "scrollLine": "1"
     },
     "folds": "",
-    "lastKnownWriteTime": 1620592123,
+    "lastKnownWriteTime": 1620595579,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1620592123490,
+    "last_content_update": 1620595579065,
     "read_only": false,
     "read_only_alternatives": []
 }

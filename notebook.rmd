@@ -1,12 +1,17 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  html_notebook: default
+  pdf_document: default
+  html_document:
+    df_print: paged
 ---
 
 ```{r}
 usuarios = read.table("usuarios5.csv", header = TRUE, sep = ",")
 recorridos = read.table("recorridos5.csv", header = TRUE, sep = ",")
 usuarios$genero_usuario = as.factor(usuarios$genero_usuario)
+usuarios_recorridos = merge(usuarios, recorridos)
 
 attach(recorridos)
 
@@ -14,8 +19,6 @@ dias = factor(recorridos$dia, levels = c("Domingo", "Lunes", "Martes", "Miércol
 usuarios_recorridos$dia = factor(dias)
 
 direcciones = as.factor(c(direccion_estacion_origen, direccion_estacion_destino))
-
-usuarios_recorridos = merge(usuarios, recorridos)
 
 vn = sort(table(direcciones), decreasing = TRUE)
 vn2 = sort(vn, decreasing = TRUE)[1:10]
@@ -64,9 +67,27 @@ porcentajes_viajes_sexo = paste(porcentajes_viajes_sexo, "%", sep = "")
 pie(viajes_sexo, labels = porcentajes_viajes_sexo, col = c("#FF8989", "#A6F6F1", "#CEFA8A"))
 ```
 
-Usuarios por Edad
+Usuarios por Edad (tallo y hoja, e histograma)
 ```
 stem(usuarios$edad_usuario, atom = 10)
+hist(usuarios$edad_usuario, main = "", xlab = "Edades", ylab = "Cantidad", col = "purple", ylim = c(0, 25), xaxp = c(10, 65, 11))
+```
+
+Viajes Edades
+```
+hist(usuarios_recorridos$edad_usuario, main = "", xlab = "Edades", ylab = "Cantidad", col = "purple", ylim = c(0, 140), xaxp = c(10, 65, 11))
+```
+
+Tabla viajes Edades
+```
+intervalos_edades = cut(usuarios_recorridos$edad_usuario, breaks = c(15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65))
+frecuencia_absoluta = table(intervalos_edades)
+frecuencia_relativa = prop.table(frecuencia_absoluta)
+porcentaje = frecuencia_relativa * 100
+frecuencia_absoluta_acumulada = cumsum(frecuencia_absoluta)
+frecuencia_relativa_acumulada = cumsum(frecuencia_relativa)
+porcentaje_acumulado = cumsum(porcentaje)
+tabla_edad = cbind(frecuencia_absoluta, frecuencia_relativa, porcentaje, frecuencia_absoluta_acumulada, frecuencia_relativa_acumulada, porcentaje_acumulado)
 ```
 
 Analisis:
