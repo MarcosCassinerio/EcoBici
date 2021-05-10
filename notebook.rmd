@@ -1,13 +1,14 @@
 ---
 title: "R Notebook"
 output:
-  html_notebook: default
   pdf_document: default
+  html_notebook: default
   html_document:
     df_print: paged
 ---
 
 ```{r}
+library(knitr)
 usuarios = read.table("usuarios5.csv", header = TRUE, sep = ",")
 recorridos = read.table("recorridos5.csv", header = TRUE, sep = ",")
 usuarios$genero_usuario = as.factor(usuarios$genero_usuario)
@@ -23,34 +24,32 @@ direcciones = as.factor(c(direccion_estacion_origen, direccion_estacion_destino)
 vn = sort(table(direcciones), decreasing = TRUE)
 vn2 = sort(vn, decreasing = TRUE)[1:10]
 ```
-
 Top 10 estaciones
+```{r}
+par(mar=c(5,13,2,2))
+barplot(sort(vn2, decreasing = FALSE), las=1, xlim = c(0, 40), xlab = "Usos", col = rainbow(10), horiz = TRUE, cex.names=0.7)
 ```
-par(mar=c(17,4,4,2))
-barplot(vn2, las=2, ylim = c(0, 40), ylab = "Usos", col = rainbow(10))
-```
-
 Uso de Estaciones
-```
+```{r}
 par(mar=c(5,4,4,2))
 plot(vn, ylim = c(0, 40), xaxt='n', xlab = "Paradas", ylab = "Usos", col = rainbow(1200))
 ```
 
 Viajes cada Dia
-```
+```{r}
 viajes_semana = table(usuarios_recorridos$dia)
 barplot(viajes_semana, xlab = "Dia", ylab = "Viajes", names = levels(dias), col = rainbow(7), beside = TRUE)
 ```
 
 Viajes por Sexo cada Dia
-```
+```{r}
 viajes_sexo_semana = table(usuarios_recorridos$genero_usuario, usuarios_recorridos$dia)
 barplot(viajes_sexo_semana, xlab = "Dia", ylab = "Viajes", names = levels(dias), col = c("#FF8989", "#A6F6F1", "#CEFA8A"), beside = TRUE)
 legend("topright", legend = c("Mujeres", "Hombres", "Otros"), fill = c("#FF8989", "#A6F6F1", "#CEFA8A"))
 ```
 
 Usuarios por Sexo
-```
+```{r}
 usuarios_generos = table(usuarios$genero_usuario)
 porcentajes_generos = usuarios_generos
 porcentajes_generos = paste(c("Mujeres", "Hombres", "Otros"), porcentajes_generos)
@@ -59,7 +58,7 @@ pie(usuarios_generos, labels = porcentajes_generos, col = c("#FF8989", "#A6F6F1"
 ```
 
 Viajes Sexos
-```
+```{r}
 viajes_sexo = table(usuarios_recorridos$genero_usuario)
 porcentajes_viajes_sexo = round((viajes_sexo * 100)/417)
 porcentajes_viajes_sexo = paste(c("Mujeres", "Hombres", "Otros"), porcentajes_viajes_sexo)
@@ -68,18 +67,18 @@ pie(viajes_sexo, labels = porcentajes_viajes_sexo, col = c("#FF8989", "#A6F6F1",
 ```
 
 Usuarios por Edad (tallo y hoja, e histograma)
-```
+```{r}
 stem(usuarios$edad_usuario, atom = 10)
 hist(usuarios$edad_usuario, main = "", xlab = "Edades", ylab = "Cantidad", col = "purple", ylim = c(0, 25), xaxp = c(10, 65, 11))
 ```
 
 Viajes Edades
-```
+```{r}
 hist(usuarios_recorridos$edad_usuario, main = "", xlab = "Edades", ylab = "Cantidad", col = "purple", ylim = c(0, 140), xaxp = c(10, 65, 11))
 ```
 
 Tabla viajes Edades
-```
+```{r}
 intervalos_edades = cut(usuarios_recorridos$edad_usuario, breaks = c(15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65))
 frecuencia_absoluta = table(intervalos_edades)
 frecuencia_relativa = prop.table(frecuencia_absoluta)
@@ -88,10 +87,30 @@ frecuencia_absoluta_acumulada = cumsum(frecuencia_absoluta)
 frecuencia_relativa_acumulada = cumsum(frecuencia_relativa)
 porcentaje_acumulado = cumsum(porcentaje)
 tabla_edad = cbind(frecuencia_absoluta, frecuencia_relativa, porcentaje, frecuencia_absoluta_acumulada, frecuencia_relativa_acumulada, porcentaje_acumulado)
+kable(tabla_edad, caption = "Viajes por Franjas Etarias", col.names = c("Frecuencia Absoluta", "Frecuencia Relativa", "Porcentaje", "Frec abs acumulada", "Frec rel acumulada", "Porc acumulado"), digits = 2, align = "cccccc")
 ```
 
-Analisis:
-  Paradas mas usadas
-  Uso de rodados por edad
+Boxplot Tiempo de uso
+```{r}
+boxplot(recorridos$duracion_recorrido, horizontal = TRUE, xlab = "Duracion de viaje (en segundos)", boxfill="lightblue", outline = FALSE)
+
+boxplot(recorridos$duracion_recorrido, horizontal = TRUE, xlab = "Duracion de viaje (en segundos)", boxfill="lightblue")
+
+
+intervalos_horas = cut(recorridos$duracion_recorrido, breaks = c(0, 1800, 3600, 5400, 19800), dig.lab = 10)
+frecuencia_absoluta = table(intervalos_horas)
+frecuencia_relativa = prop.table(frecuencia_absoluta)
+porcentaje = frecuencia_relativa * 100
+frecuencia_absoluta_acumulada = cumsum(frecuencia_absoluta)
+frecuencia_relativa_acumulada = cumsum(frecuencia_relativa)
+porcentaje_acumulado = cumsum(porcentaje)
+tabla_duracion_recorridos = cbind(frecuencia_absoluta, frecuencia_relativa, porcentaje, frecuencia_absoluta_acumulada, frecuencia_relativa_acumulada, porcentaje_acumulado)
+kable(tabla_duracion_recorridos, caption = "Duraciones de recorridos", col.names = c("Frecuencia Absoluta", "Frecuencia Relativa", "Porcentaje", "Frec abs acumulada", "Frec rel acumulada", "Porc acumulado"), digits = 2, align = "cccccc")
+```
   
-  
+Boxplot Tiempo de uso
+```{r}
+boxplot(recorridos$distancia, horizontal = TRUE, xlab = "Duracion de viaje (en segundos)", boxfill="lightblue")
+
+plot(recorridos$duracion_recorrido~recorridos$distancia,ylab = "Duración",xlab = "Distancia")
+```
