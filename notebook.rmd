@@ -31,7 +31,7 @@ barplot(sort(vn2, decreasing = FALSE), las=1, xlim = c(0, 40), xlab = "Usos", co
 ```
 Uso de Estaciones
 ```{r}
-par(mar=c(5,4,4,2))
+par(mar=c(4,4,4,2))
 plot(vn, ylim = c(0, 40), xaxt='n', xlab = "Paradas", ylab = "Usos", col = rainbow(1200))
 ```
 
@@ -110,7 +110,7 @@ kable(tabla_duracion_recorridos, caption = "Duraciones de recorridos", col.names
   
 Boxplot Tiempo de uso
 ```{r}
-boxplot(recorridos$distancia, horizontal = TRUE, xlab = "Duracion de viaje (en segundos)", boxfill="lightblue")
+boxplot(recorridos$distancia, horizontal = TRUE, xlab = "Distancia (en metros)", boxfill="lightblue")
 
 plot(recorridos$duracion_recorrido~recorridos$distancia,ylab = "Duración",xlab = "Distancia")
 ```
