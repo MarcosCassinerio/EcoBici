@@ -1,0 +1,300 @@
+\documentclass[a4paper, 12pt]{article}
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+\usepackage{unicode-math}
+\defaultfontfeatures{Scale=MatchLowercase}
+\defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+	\usepackage[]{microtype}
+	\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+	\IfFileExists{parskip.sty}{%
+		\usepackage{parskip}
+	}{% else
+		\setlength{\parindent}{0pt}
+		\setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+	\KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+	pdftitle={R Notebook},
+	hidelinks,
+	pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+\usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+
+% Esto es un comentario
+\usepackage[spanish]{babel} % Diccionario español.
+\usepackage{graphicx} %para insertar imágenes
+\usepackage{fancyhdr} %para encabezado y pie de página
+\usepackage{amssymb} %algunos símbolos matemáticos no tan comunes
+\usepackage{blindtext} %Este se puede borrar. es para poner texto de relleno automático.
+\usepackage{xcolor} %Si quisieramos poner texto en color
+
+
+% ajuste de los margenes
+\topmargin=-1cm
+\oddsidemargin=0cm
+\textheight=24cm
+\textwidth=17cm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Acá empieza el documento  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Para cambiar los nombres de Tabla (por defecto sale "Cuadro") y Bibliografía (por defecto, Referencias)
+% Estas dos líneas tienen que estar después del "\begin{document}". Si no, no funciona.
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\refname}{Referencias y Bibliografía}
+
+%%%%%%%%%%%%%%%%%%%% CARÁTULA %%%%%%%%%%%%%%%%
+% Aunque hay formas más sencillas de poner título, autores, fecha y resumen, esta es la que te da más libertad de edición.
+
+\begin{titlepage}
+
+%Acá voy a poner los dos logos
+\begin{minipage}{2.6cm}
+\includegraphics[width=\textwidth]{fceia.pdf}
+\end{minipage}
+\hfill
+%
+\begin{minipage}{6cm}
+\begin{center}
+\normalsize{Universidad Nacional de Rosario\\
+Facultad de Ciencias Exactas,\\
+Ingeniería y Agrimensura\\
+Departamento de Ciencias de la Computación -- ECEN\\}
+\end{center}
+\end{minipage}
+\hspace{0.5cm} %Este espacio horizontal lo agregué para que quede más centrado
+\hfill
+\begin{minipage}{2.6cm}
+\includegraphics[width=\textwidth]{unr.pdf}
+\end{minipage}
+%La suma de los anchos de cada minipage debe ser menor o igual que lo que dice en \textwidth (más arriba).
+
+\vspace{0.5cm} %espacio vertical
+
+\begin{center}
+\normalsize{\sc Probabilidad y Estadística}\\
+\vspace{0.5cm}
+\large{Trabajo Práctico N\textordmasculine  1}\\
+\Large{\bf Análisis descriptivo de los usuarios de EcoBici 2020}\\
+%\Large{} es más grande que \large{}
+
+\vspace{5cm}
+
+\normalsize
+Cassinerio Marcos, Cerruti Lautaro, Garavano Lautaro\\
+
+\vspace*{0.5cm}
+\small{6 de Mayo de 2021}
+
+\vspace*{3cm}
+
+
+\vspace{5cm}
+
+\normalsize
+
+\end{center}
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%% FIN DE LA CARÁTULA %%%%%%%%%%%%%%%%
+
+
+% Editando el encabezado y pie de pagina
+\pagestyle{fancy}
+\lhead{\scriptsize{Titulo del trabajo}}
+\rhead{\scriptsize{G. Galilei - I. Newton - A. Einstein}}
+\lfoot{\scriptsize{Física V}}
+\cfoot{\scriptsize{Diciembre de 1642}}
+\rfoot{\scriptsize{Página \thepage}}
+\renewcommand{\footrulewidth}{0.6pt}
+
+
+\newpage % Salto de página
+\section{Acerca de los datos}
+El conjunto de datos a analizar pertenece al sistema EcoBici de la Ciudad de Buenos Aires correspondiente al año 2020. Se trabaja con una selección de los datos realizada por la cátedra de 100 usuarios y los recorridos realizados por los mismos.
+
+\underline{Unidad de análisis:} los usuarios y sus recorridos
+\underline{Muestra:} 100 usuarios y sus 417 recorridos
+\newpage
+\section{Resultados}
+Tal como se explicó anteriormente, se procedió a estudiar el proceso de tal cosa y tal otra. Los resultados obtenidos se muestran en la Tabla~\ref{tab:mediciones}. En ella pueden verse las seis series de mediciones de tal magnitud para cada valor de tal otra.
+
+Nótese que toda Tabla debe ser citada y explicada en el texto, al igual que las Figuras.
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+$m$ (kg)&   $n$&   $t_1$ (s)&   $t_2$ (s)&   $t_3$ (s)&   $t_4$ (s)&   $t_5$ (s)&   $t_6$ (s)& $\overline{t}$ (s)& Período $\overline{T}$ (s)& $\Delta T$ (s)\\
+\hline
+&10&&&&&&&&&\\
+\hline
+&10&&&&&&&&&\\
+\hline
+&10&&&&&&&&&\\
+\hline
+&10&&&&&&&&&\\
+\hline
+&10&&&&&&&&&\\
+\hline
+\end{tabular}
+\caption{\label{tab:mediciones} Mediciones registradas de ...}
+\end{table}
+
+A partir de las mediciones registradas, elaboramos la Tabla~\ref{tab:mediciones2} que muestra tal cosa en función de tal otra.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+$m$ (kg)&$\Delta m$ (kg)&$\overline{T}^2$ (s$^2$)&$\Delta (T^2)$ (s$^2$)\\ \hline
+&&&\\
+\hline
+&&&\\
+\hline
+&&&\\
+\hline
+&&&\\
+\hline
+&&&\\
+\hline
+\end{tabular}
+\caption{\label{tab:mediciones2} Tal cosa en función de tal otra}
+\end{center}
+\end{table}
+
+
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.75]{posicion_tiempo.pdf}
+\caption{\label{fig:grafica} Gráfica de tal cosa en función de tal otra...}
+\end{figure}
+
+
+A partir de los datos de la Tabla~\ref{tab:mediciones2}, se elaboró la gráfica de la Figura~\ref{fig:grafica} que muestra tal magnitud en función de tal otra. En ella se ha representado la recta que mejor ajusta a las mediciones por el método de mínimos cuadrados.
+
+A partir de la pendiente de dicha recta, y observando la expresión (Número de expresión que nos indica el significado de la pendiente), llegamos a la conclusión que.... Aquí iría el resultado final obtenido (¡Que después se repite en las conclusiones!).
+
+
+%\clearpage %Esta línea es un arma de emergencia para poner todas las figuras que aun no se hayan puesto. Lo mejor es no usarla nunca porque interrumpe el flujo del texto, pero esta bueno saber que existe.
+
+\section{Discusión de resultados}
+Lo siguiente es texto de relleno. \textcolor{gray}{\blindtext}
+
+
+\section{Conclusiones}
+En este trabajo se midió tal cosa mediante el método tal. El resultado obtenido fue $$Med=(Med\pm Error) \mbox{Unidad}.$$
+El error relativo porcentual obtenido es tal, por lo que la calidad de la medición es blah blah blah.
+
+\blindtext
+
+
+\begin{thebibliography}{2} %Acá voy a poner la bibliografía. Con \cite{reitz}, por ejemplo, cito al Reitz-Milford en el texto.
+\bibitem{reitz} J. R. Reitz, F. J. Milford, R. W. Christy; {\it Fundamentos de la teoría electromagnética.} 4ta.ed., Addison-Wesley iberoamericana. E.E.U.U., 1996.
+\bibitem{alonso} M. Alonso, E. J. Finn; {\it Física, Volumen II: Campos y Ondas.}, Fondo Educativo Interamericano. E.E.U.U., 1976.
+\end{thebibliography}
+
+
+
+%\newpage %Creo un salto de página
+
+\appendix
+\section{Determinación de la incerteza en la medición del período de oscilación}
+
+\textcolor{gray}{\Blindtext}
+
+\end{document}

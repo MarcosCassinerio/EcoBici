@@ -1,7 +1,8 @@
 ---
 title: "R Notebook"
 output:
-  pdf_document: default
+  pdf_document: 
+    keep_tex: yes
   html_notebook: default
   html_document:
     df_print: paged
@@ -38,13 +39,13 @@ plot(vn, ylim = c(0, 40), xaxt='n', xlab = "Paradas", ylab = "Usos", col = rainb
 Viajes cada Dia
 ```{r}
 viajes_semana = table(usuarios_recorridos$dia)
-barplot(viajes_semana, xlab = "Dia", ylab = "Viajes", names = levels(dias), col = rainbow(7), beside = TRUE)
+barplot(viajes_semana, xlab = "Dia", ylab = "Viajes", names = levels(dias), col = rainbow(7), beside = TRUE, cex.names = 0.9)
 ```
 
 Viajes por Sexo cada Dia
 ```{r}
 viajes_sexo_semana = table(usuarios_recorridos$genero_usuario, usuarios_recorridos$dia)
-barplot(viajes_sexo_semana, xlab = "Dia", ylab = "Viajes", names = levels(dias), col = c("#FF8989", "#A6F6F1", "#CEFA8A"), beside = TRUE)
+barplot(viajes_sexo_semana, xlab = "Dia", ylab = "Viajes", names = levels(dias), col = c("#FF8989", "#A6F6F1", "#CEFA8A"), beside = TRUE, cex.names = 0.9, ylim = c(0,40))
 legend("topright", legend = c("Mujeres", "Hombres", "Otros"), fill = c("#FF8989", "#A6F6F1", "#CEFA8A"))
 ```
 
