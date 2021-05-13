@@ -109,9 +109,24 @@ tabla_duracion_recorridos = cbind(frecuencia_absoluta, frecuencia_relativa, porc
 kable(tabla_duracion_recorridos, caption = "Duraciones de recorridos", col.names = c("Frecuencia Absoluta", "Frecuencia Relativa", "Porcentaje", "Frec abs acumulada", "Frec rel acumulada", "Porc acumulado"), digits = 2, align = "cccccc")
 ```
   
-Boxplot Tiempo de uso
+Boxplot Distancia
 ```{r}
 boxplot(recorridos$distancia, horizontal = TRUE, xlab = "Distancia (en metros)", boxfill="lightblue")
 
 plot(recorridos$duracion_recorrido~recorridos$distancia,ylab = "Duración",xlab = "Distancia")
+```
+
+Boxplot Distancia
+```{r}
+boxplot(recorridos$distancia, horizontal = TRUE, xlab = "Distancia (en metros)", boxfill="lightblue")
+
+plot(recorridos$duracion_recorrido~recorridos$distancia,ylab = "Duración",xlab = "Distancia")
+```
+
+Grafico de putos
+```{r}
+usuarios_factor = as.factor(recorridos$id_usuario)
+usuarios_factor = table(usuarios_factor)
+dir_data = as.data.frame(usuarios_factor)
+stripchart(dir_data$Freq,method="stack",xlab="Viajes",offset=0.5,at=0.01,pch=19)
 ```

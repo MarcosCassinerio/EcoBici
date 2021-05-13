@@ -364,7 +364,7 @@ acumulada & Frec rel acumulada & Porc acumulado \\
 \bottomrule
 \end{longtable}
 
-Boxplot Tiempo de uso
+Boxplot Distancia
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -381,5 +381,36 @@ Boxplot Tiempo de uso
 \end{Shaded}
 
 \includegraphics{notebook_files/figure-latex/unnamed-chunk-12-2.pdf}
+
+Boxplot Distancia
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{boxplot}\NormalTok{(recorridos}\SpecialCharTok{$}\NormalTok{distancia, }\AttributeTok{horizontal =} \ConstantTok{TRUE}\NormalTok{, }\AttributeTok{xlab =} \StringTok{"Distancia (en metros)"}\NormalTok{, }\AttributeTok{boxfill=}\StringTok{"lightblue"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{notebook_files/figure-latex/unnamed-chunk-13-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{plot}\NormalTok{(recorridos}\SpecialCharTok{$}\NormalTok{duracion\_recorrido}\SpecialCharTok{\textasciitilde{}}\NormalTok{recorridos}\SpecialCharTok{$}\NormalTok{distancia,}\AttributeTok{ylab =} \StringTok{"Duración"}\NormalTok{,}\AttributeTok{xlab =} \StringTok{"Distancia"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{notebook_files/figure-latex/unnamed-chunk-13-2.pdf}
+
+Grafico de putos
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{usuarios\_factor }\OtherTok{=} \FunctionTok{as.factor}\NormalTok{(recorridos}\SpecialCharTok{$}\NormalTok{id\_usuario)}
+\NormalTok{usuarios\_factor }\OtherTok{=} \FunctionTok{table}\NormalTok{(usuarios\_factor)}
+\NormalTok{dir\_data }\OtherTok{=} \FunctionTok{as.data.frame}\NormalTok{(usuarios\_factor)}
+\FunctionTok{stripchart}\NormalTok{(dir\_data}\SpecialCharTok{$}\NormalTok{Freq,}\AttributeTok{method=}\StringTok{"stack"}\NormalTok{,}\AttributeTok{xlab=}\StringTok{"Viajes"}\NormalTok{,}\AttributeTok{offset=}\FloatTok{0.5}\NormalTok{,}\AttributeTok{at=}\FloatTok{0.01}\NormalTok{,}\AttributeTok{pch=}\DecValTok{19}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{notebook_files/figure-latex/unnamed-chunk-14-1.pdf}
 
 \end{document}
